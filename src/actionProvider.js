@@ -7,7 +7,7 @@ class ActionProvider {
     handleQuery = async (query) => {
       try {
         console.log("Sending query to the server:", query);
-        const response = await fetch('https://abf4-41-141-71-183.ngrok-free.app/query', {
+        const response = await fetch('https://add2-41-141-71-183.ngrok-free.app/query', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
